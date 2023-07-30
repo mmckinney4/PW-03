@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to Real Realty</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="login.js"></script>
+	<script src="index.js"></script>
+	
+</head>
+<body>
+	
+	<div class="container">
+			<div class="welcome">
+				<img src="logo.png" alt="logo">
+			</div>
+		<div class="registration">
+			<h2>New User? Register Now!</h2>
+			<form id="registrationForm" action="database.php" method="post" onsubmit="handleFormSubmit()" novalidate >
+				<label for="firstName">First Name:</label>
+				<input type="text" id="firstName" name = "firstName" required><br>
+
+				<label for="lastName">Last Name:</label>
+				<input type="text" id="lastName" name = "lastName" required><br>
+
+				<label for="email">Email Address:</label>
+				<input type="email" id="email" name="email" required><br>
+
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required><br>
+
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required><br>
+
+				<label for="confirmPassword">Confirm Password:</label>
+				<input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+				<button type="submit">Sign Up</button>
+			</form>
+
+			
+			<br>
+			<h2>Login:</h2>
+			<form id="loginForm" action="login.php" method="post" onsubmit="handleLoginFormSubmit()" novalidate>
+				<label for="loginUsername">Username:</label>
+				<input type="text" id="loginUsername" name = "loginUsername" required><br>
+
+				<label for="loginPassword">Password:</label>
+				<input type="password" id="loginPassword" name = "loginPassword" required><br>
+
+				<button type="submit">Log In</button>
+			</form>
+		</div>
+
+		<div class="services">
+			<h1>About Real Realty</h1>
+			<p>Real Realty is a world renown provider of a wide variety of properties located all over the United States and Beyond! 
+			We have an expert team of agents waiting to show you a beutiful new house that could becoem your dream house! Create an account now to view our huge selection of premium homes now! </p>
+			<br>
+			<h2>Our services</h2>
+		
+			<ul>
+				<li>See home buying options all over the United States</li>
+				<li>View home rates and other information at just a glance</li>
+				<li>Wishlist your favoirit homes at the touch of a button</li>
+				<li>Dont like a home? Easily hide the propery from appearing</li>
+				<li>Use our search bar to find your new home</li>
+			</ul>
+		
+		</div>
+
+		<div class="chooseUs">
+			<h1>Why choose us over competitors?</h1>
+			<p>At Real Realty, were not just a buisness, were a family, and as such, treat eachother right.  Thats why we provide the absoulte best most saught after properties on the market.
+			Allowing our expert team of realtors guide you to the perfect match to fit your style and budget. We care about your future and want to give you an easy buying experince. All we ask in return is that you'll choose us agian!	
+			</p>
+		
+		</div>
+
+		<div class="attraction">
+			<h2>What we do to attract more customers:</h2>
+			<ul>
+				<li>Delivering top-notch quality in all our services</li>
+				<li>Offering competitive pricing and value for money</li>
+				<li>Maintaining transparency and open communication</li>
+				<li>Regularly updating our offerings to meet the latest industry trends</li>
+				<li>Listening to customer feedback and continuously improving our services</li>
+			</ul>
+		</div>
+
+	</div>
+	
+	
+</body>
+</html>

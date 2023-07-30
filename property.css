@@ -1,0 +1,41 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: hsl(200, 69%, 14%);
+      color: hsl(9, 100%, 62%);
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+	  color: hsl(9, 100%, 62%);
+      margin-bottom: 20px;
+    }
+
+    .property-image {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    .property-details {
+      text-align: center;
+	  color: hsl(9, 100%, 62%);
+      margin: 10px 0;
+    }
+
+    .description {
+      margin-top: 30px;
+      text-align: center;
+    }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="login.js"></script>
+</head>
+<body>
+	<div class="containerlogin">
+		<div class="login">
+			<img src="logo.png" alt="logo">
+			<h2>Login</h2>
+			<form id="loginForm" action="login.php" method="post" onsubmit="handleLoginFormSubmit()" novalidate>
+				<label for="loginUsername">Username:</label>
+				<input type="text" id="loginUsername" name = "loginUsername" required><br>
+
+				<label for="loginPassword">Password:</label>
+				<input type="password" id="loginPassword" name = "loginPassword" required><br>
+
+				<button type="submit">Log In</button>
+			</form>
+		</div>
+	</div>
+
+	
+</body>
+</html>
